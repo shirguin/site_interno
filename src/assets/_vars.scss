@@ -1,0 +1,22 @@
+$widthSite: 1200px;
+$backgroundColorSite: #ffffff;
+$backgroundColorCounter: #f4f0ec;
+$numberCounterColor: #cda274;
+$headingTextColor: #292f36;
+$textColor: #4d5053;
+$borderRadius: 50px;
+$borderArticle: 1px solid #e7e7e7;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: $backgroundColorSite;
+}
+
+.center {
+  margin-left: calc(50% - $widthSite / 2);
+  margin-right: calc(50% - $widthSite / 2);
+}
